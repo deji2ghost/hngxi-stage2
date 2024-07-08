@@ -1,0 +1,17 @@
+.script input[type= checkbox]{
+    visibility: hidden;
+    /* clip-path: circle(46% at 50% 50%); */
+}
+
+/* .script input:checked~.geekmark:after{
+    display: block;
+    clip-path: circle(46% at 50% 50%);
+} */
+
+input[type="checkbox"]::before {
+    content: '';
+    width: 1.4rem;
+    height: 1.4rem;
+    clip-path: circle(46% at 50% 50%);
+}
+
