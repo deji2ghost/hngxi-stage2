@@ -63,7 +63,7 @@ export const CheckOut = () => {
                 {
                     state.map(item => {
                         return(
-                            <div key={item.id} className='border-brown border mb-8 md:h-[300px] md:h-[230px] flex flex-col items-center justify-between p-2'>
+                            <div key={item.id} className='border-brown border mb-8 md:h-[260px] flex flex-col items-center justify-between p-2'>
                                 <h1 className='text-center font-[400] text-brown text-[22px]'>{item.name}</h1>
                                 <div className=''>
                                     <img src={item.image} />

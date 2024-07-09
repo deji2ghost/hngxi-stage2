@@ -2,7 +2,6 @@ import { faMinus, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { RecentlyViewed } from '../Components/RecentlyViewed'
 import { Link } from 'react-router-dom'
 import { addToCart, decreaseFromCart, deleteFromCart } from '../Redux/Cart'
 
@@ -85,7 +84,6 @@ export const CartPage = () => {
             Go Back
         </Link>
 
-        <RecentlyViewed />
     </div>
   )
 }
