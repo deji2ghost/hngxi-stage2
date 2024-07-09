@@ -22,7 +22,7 @@ export const HomeBody = () => {
                 {
                     threeDivs.map(three => {
                         return(
-                            <div className='bg-lightPink w-[40%] lg:w-[21%] py-5 px-8 text-center flex flex-col justify-between'>
+                            <div key={three.id} className='bg-lightPink w-[40%] lg:w-[21%] py-5 px-8 text-center flex flex-col justify-between'>
                                 <h1 className='font-[600] text-brown'>{three.description}</h1>
                                 <div className=''>
                                     <img src={three.image}/>
@@ -38,7 +38,7 @@ export const HomeBody = () => {
                     {
                         products.map(product=> {
                             return(
-                                <CardLayout product={product} />
+                                <CardLayout key={product.id} product={product} />
                             )
                         })
                     }
@@ -54,7 +54,7 @@ export const HomeBody = () => {
                         {
                             otherProducts.map(products => {
                                 return(
-                                <CardLayout otherProduct={products}/>
+                                    <CardLayout key={products.id} otherProduct={products}/>
                                 )
                             })
                         }

@@ -38,6 +38,7 @@ export const products =[
         image: friedCashew,
         price: '50',
         name: 'Cashew Nuts',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
         id: 2,
@@ -51,52 +52,59 @@ export const products =[
         image: almondNut,
         price: '50',
         name: 'Almond Nuts',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
         id: 4,
         image: pecanNuts,
         price: '30',
         name: 'Pecan Nuts',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     }
 ]
 
 export const otherProducts =[
     {
-        id: 1,
+        id: 5,
         image: honeyRoastedPeanuts,
         price: '25',
         name: 'Honey Roasted peanuts',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
-        id: 2,
+        id: 6,
         image: RoastedPeanuts,
         price: '15',
         name: 'Roasted peanuts',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
-        id: 3,
+        id: 7,
         image: chiaSeeds,
         price: '10',
         name: 'Chia Seeds',
         description: 'Chia seeds are a type of edible seed that comes from the plant Salvia hispanica, native to Central America and Mexico.They have been a staple food in many cultures for centuries, and are highly valued for their nutritional and health benefits.'
     },
     {
-        id: 4,
+        id: 8,
         image: punpkinSeeds,
         price: '20',
         name: 'Punpkin Seeds',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
-        id: 5,
+        id: 9,
         image: Raisins,
         price: '35',
         name: 'Raisins',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     },
     {
-        id: 6,
+        id: 10,
         image: driedCranberries,
         price: '33',
         name: 'Dried Cranberries',
+        description: 'Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor. walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.'
     }
 ]
 

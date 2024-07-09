@@ -2,6 +2,7 @@ import { faNutritionix, faSearchengin } from '@fortawesome/free-brands-svg-icons
 import { faHeadset, faHeart, faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import hazel from '../images/Hazelnut.png'
+import support from '../images/Support.png'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
@@ -24,9 +25,10 @@ export const Header = () => {
                     <FontAwesomeIcon icon={faSearch} className='absolute right-1'/>
                 </div>
             </div>
-            <div className='flex items-center lg:gap-16'>
+            <div className='flex items-center md:gap-8 lg:gap-16'>
                 <div className='hidden md:flex items-center'>
-                    <FontAwesomeIcon icon={faHeadset} />
+                    {/* <FontAwesomeIcon icon={faHeadset} /> */}
+                    <img src={support}/>
                     <div className=''>
                         <p className='font-[600]'>Call us 24/7</p>
                         <p className='text-black font-[600] -mt-1'>+2348167208978</p>
