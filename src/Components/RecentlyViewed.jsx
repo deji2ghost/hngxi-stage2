@@ -12,7 +12,7 @@ export const RecentlyViewed = () => {
             {
                 recentlyViewed.map(view => {
                     return(
-                        <div key={view.id} className='w-[32%] h-[200px] md:h-[300px] lg:h-[500px] p-2 border border-brown flex flex-col justify-between items-center'>
+                        <div key={view.id} className='w-[32%] h-[250px] md:h-[300px] lg:h-[500px] p-2 border border-brown flex flex-col justify-between items-center'>
                             <h1 className='text-center font-[400] text-[24px]'>{view.name}</h1>
                             <div className=''>
                                 <img src={view.image} />
