@@ -37,9 +37,9 @@ export const Footer = () => {
                 <div>
                     <h1 className='text-[20px]'>Join Us Now</h1>
                     <div className='flex items-center'>
-                        <div className='w-[20%] md:w-[5%] border'><img src={Facebook} /></div>
-                        <div className='w-[20%] md:w-[5%] border'><img src={TwitterX} /></div>
-                        <div className='w-[20%] md:w-[5%] border'><img src={Instagram} /></div>
+                        <div className='w-[20%] md:w-[5%]'><img src={Facebook} /></div>
+                        <div className='w-[20%] md:w-[5%]'><img src={TwitterX} /></div>
+                        <div className='w-[20%] md:w-[5%]'><img src={Instagram} /></div>
                     </div>
                 </div>
             </div>
